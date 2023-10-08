@@ -1,0 +1,134 @@
+/*GLOBALES*/
+h2{
+    margin-top: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: lighter;
+}
+
+ h2 span{
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+}
+
+h3{
+    text-align: center;
+    font-weight: lighter;
+}
+
+/*ESTILOS HEADER*/
+header{
+    background-color: gray;
+}
+
+.contenido-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+      align-items: center;
+}
+
+.logo img{
+    max-width: 200px;
+}
+
+.navbar a{
+    color: white;
+    font-size: 20px;
+}
+
+.active{
+    color:lawngreen!important;
+}
+
+.active2{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* ESTILOS DEL BANNER*/
+.img-banner{
+    height: 750px;
+    background-image: url(/images/ba1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(0.4);
+    position:relative; 
+    z-index:0;
+ 
+}
+
+.contenido-banner{
+    font-size: 17px;
+    color: white;
+    width: 35%;
+    position:absolute; 
+    z-index:100;
+    left:55em; 
+    top:30em;
+}
+
+/*ESTILOS CARDS*/
+.oradores-cards{
+    display: flex;
+}
+
+.card .btn{
+    width: auto;
+    font-size: 10px;
+    font-weight: bold;
+    height: 25px;
+}
+
+.btn-warning{
+    color: black;
+}
+
+.card-body a{
+    margin-right: 10px;
+}
+
+.card-title{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+/*ESTILOS HONOLULU*/
+.honolulu .card img{
+    height: 450px;
+}
+
+/*FORMULARIO*/
+.formulario span{
+    font-weight: lighter;
+}
+
+button{
+    height: 55px;
+}
+/*FOOTER*/
+footer{
+    height: 150px;
+    background-color: #0E5E6F;
+    text-align: center;
+    padding-top: 3%;
+    margin-top: 40px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+   
+}
